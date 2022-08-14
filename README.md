@@ -2,7 +2,7 @@
 Proste REST API dla artykułów prasowych
 
 # Uruchomienie
-  - Należy utworzyć baze danych MQSQL przed pierwszym uruchomieniem z pliku - <a href="https://github.com/SzubaKamil/pressRestAPI/blob/main/databaseScript/createMySQLDatabase.txt">skrypt</a>
+  - Należy utworzyć baze danych MySQL przed pierwszym uruchomieniem z pliku - <a href="https://github.com/SzubaKamil/pressRestAPI/blob/main/databaseScript/createMySQLDatabase.txt">skrypt</a>
   - Projekt maven-a wszystkie niezbędne zależności w pliku <a href="https://github.com/SzubaKamil/pressRestAPI/blob/main/pom.xml">pom.xml</a>
   
 # Technologie
@@ -29,7 +29,7 @@ Proste REST API dla artykułów prasowych
     
     
  # JSON
- {"id":1,  
+ {"id":id,  
     "content":"content",  
     "datePublication":"yyyy-MM-dd",  
     "title":"title",  
