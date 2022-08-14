@@ -16,6 +16,7 @@ CREATE TABLE `pressRestApi`.`article` (
   `content` MEDIUMTEXT NULL,
   `date_publication` DATE NULL,
   `title` varchar(100) NULL,
+  `name` varchar(100) NULL,
   `author` varchar(100) NULL,
   `time_stamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`))

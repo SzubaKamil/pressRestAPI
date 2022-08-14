@@ -27,6 +27,8 @@ public class Article {
     @Column (name = "title")
     private String title;
 
+    @Column (name = "name")
+    private String name;
     @Column (name = "author")
     private String author;
 
@@ -68,6 +70,14 @@ public class Article {
 
     public void setTitle(String name) {
         this.title = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAuthor() {
